@@ -1,7 +1,9 @@
 <?php
+// composer autoloader for required packages and dependencies
+require_once('vendor/autoload.php');
 
-// Kickstart the framework
-$f3=require('lib/base.php');
+/** @var \Base $f3 */
+$f3 = \Base::instance();
 
 $f3->set('DEBUG',1);
 if ((float)PCRE_VERSION<8.0)
