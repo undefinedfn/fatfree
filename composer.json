@@ -5,7 +5,7 @@
     	"type": "project",
 	"license": "GPL-3.0",
 	"require": {
-		"php": ">=5.4"
+		"php": ">=5.4",
 		"bcosca/fatfree-core": "^3.6"
     	}
 }
